@@ -1,32 +1,27 @@
-# TITLE
+# **BANK ACCOUNT**
 
-#### _ SUBTITLE _
+#### Display your bank account balance!
 
 By **Ryan G Ferris**
 
 ## DESCRIPTION
 
-_DESCRIPTION_
+_Bank Account program to display user account balance after withdrawal & deposit transactions._
 
 ## SPECS
 
 | Behavior | Input | Output |
-| :------------- | :------------- | :------------- |
-| Behavior_1 | Input_1 | Output_1 |
-| Behavior_2 | Input_2 | Output_2 |
-| Behavior_3 | Input_3 | Output_3 |
-| Behavior_4 | Input_4 | Output_4 |
-| Behavior_5 | Input_5 | Output_5 |
-| Behavior_6 | Input_6 | Output_6 |
-| Behavior_7 | Input_7 | Output_7 |
-| Behavior_8 | Input_8 | Output_8 |
-| Behavior_9 | Input_9 | Output_9 |
-| Behavior_10 | Input_10 | Output_10 |
+| :------------- | :------------- | :------------- |  
+| Add one number to another. | 1 + 4 | 5 |  
+| Subtract one number from another. | 1 - 4 | -3 |  
+| Display output from a transaction | bankAccount{**balance**: 100.00, **withdrawal**: 0.00, **deposit**: 50.00} | bankAccount{**balance**: 150.00, **withdrawal**: 0.00, **deposit**: 0.00} |  
+| Allow user to create account | bankAccount{**initialDeposit**: 100.00, **balance**: 0.00, **withdrawal**: 0.00, **deposit**: 0.00} | bankAccount{**initialDeposit**: 0.00, **balance**: 100.00, **withdrawal**: 0.00, **deposit**: 0.00} |  
+| Track account balance | bankAccount{**balance**: [150.00, 100.00], **withdrawal**: 20.00, **deposit**: 0.00} | bankAccount{**balance**: [130.00, 150.00, 100.00], **withdrawal**: 0.00, **deposit**: 0.00} |  
 
 ## SETUP/INSTALLATION REQUIREMENTS
 
 * Download and install an up to date web browser
-* Click on the following [link](GitHub_Repository_Link) to use the PROGRAM_TITLE
+* Click on the following [link](https://github.com/ryanglenferris/bank-account.git) to view the code Bank Account program.
 
 ## KNOWN BUGS
 
@@ -41,7 +36,6 @@ _Email me at [ryanglenferris@gmail.com](mailto:ryanglenferris@gmail.com) if you 
 * _HTML_
 * _CSS_
 * _Materialize_
-<!-- * _Bootstrap_ -->
 * _jQuery_
 * _Git_
 * _GitHub_
