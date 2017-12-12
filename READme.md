@@ -21,7 +21,7 @@ _Bank Account program to display user account balance after withdrawal & deposit
 ## SETUP/INSTALLATION REQUIREMENTS
 
 * Download and install an up to date web browser
-* Click on the following [link](https://github.com/ryanglenferris/bank-account.git) to view the code Bank Account program.
+* [Click here](https://github.com/ryanglenferris/bank-account.git) to view the code for the Bank Account program.
 
 ## KNOWN BUGS
 
