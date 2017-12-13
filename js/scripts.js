@@ -22,7 +22,6 @@ $(document).ready(function() {
   var transactionWithdrawl;
   var newAccount = new BankAccount(accountName, accountBalance);
 
-
   $("#create-account").submit(function(event) {
     event.preventDefault();
     // debugger;
@@ -34,13 +33,9 @@ $(document).ready(function() {
     console.log(accountBalance);
     console.log(newAccount);
     console.log(accountLog);
-    // var transactionDeposit = $("#transaction_deposit").val("");
-    // var transactionWithdrawl = $("#transaction_withdrawl").val("");
-
     $("#current-balance").show();
     $("#current-balance").text(newAccount.balance)
   }); // End of 'create-account' submit listener.
-
 
   $("#post-transaction").submit(function(event) {
     event.preventDefault();
@@ -50,12 +45,7 @@ $(document).ready(function() {
     newAccount.deposit(accountBalance, transactionDeposit);
     console.log(transactionDeposit);
     console.log(transactionWithdrawl);
-
     $("#current-balance").text(newAccount.balance);
     $("#current-balance").show();
   }); // End of 'post-transaction' submit listener.
-
-
-
-
 }); // End of 'ready' listener.
