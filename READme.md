@@ -14,9 +14,9 @@ _Bank Account program to display user account balance after withdrawal & deposit
 | :------------- | :------------- | :------------- |  
 | Add one number to another. | 1 + 4 | 5 |  
 | Subtract one number from another. | 1 - 4 | -3 |  
-| Display output from a transaction | bankAccount{**balance**: 100.00, **withdrawal**: 0.00, **deposit**: 50.00} | bankAccount{**balance**: 150.00, **withdrawal**: 0.00, **deposit**: 0.00} |  
-| Allow user to create account | bankAccount{**initialDeposit**: 100.00, **balance**: 0.00, **withdrawal**: 0.00, **deposit**: 0.00} | bankAccount{**initialDeposit**: 0.00, **balance**: 100.00, **withdrawal**: 0.00, **deposit**: 0.00} |  
-| Track account balance | bankAccount{**balance**: [150.00, 100.00], **withdrawal**: 20.00, **deposit**: 0.00} | bankAccount{**balance**: [130.00, 150.00, 100.00], **withdrawal**: 0.00, **deposit**: 0.00} |  
+| Create a new account. | BankAccount{name: **null**, balance: **null**} | BankAccount{name: **Adam Calhoun**, balance: **1,000,000.00**} |  
+| Modify account balances. | BankAccount{name: **Adam Calhoun**, balance: **1,000,000.00**, transaction:**999,999.99**} | BankAccount{name: **Adam Calhoun**, balance: **0.01**} |
+| Reset account balances when you create a new account entry. | BankAccount{name: **Adam Calhoun**, balance: **1,000,000.00**} | BankAccount{name: **Adam Calhoun**, balance: **1,000,000.00**} |
 
 ## SETUP/INSTALLATION REQUIREMENTS
 
